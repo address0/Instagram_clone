@@ -16,3 +16,11 @@ nav {
   margin: 20px;
 }
 .menu li:hover {background-color: rgb(231, 229, 229);}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
