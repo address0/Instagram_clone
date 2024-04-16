@@ -4,18 +4,27 @@ nav {
   position: fixed;
   height: 100%;
 }
+.logo {
+  width: 100px;
+  margin-top: 30px; 
+  margin-left: 15px;
+}
 .menu {
-  padding: 20px;
+  padding: 0px;
 }
 .menu li {
   height: 30px;
   line-height: 30px;
   display: block;
-  padding: 0 15px;
   font-size: 17px;
-  margin: 20px;
+  margin: 10px 5px;
+  padding: 10px 0px;
+  border-radius: 10px;
+  align-content: center;
 }
-.menu li:hover {background-color: rgb(231, 229, 229);}
+.menu li:hover {
+  background-color: rgb(238, 236, 236);
+}
 
 .material-symbols-outlined {
   font-variation-settings:
@@ -23,4 +32,19 @@ nav {
   'wght' 400,
   'GRAD' 0,
   'opsz' 24
+}
+.nav-li-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 0px;
+}
+.nav-icon {
+  font-size: 32px;
+  margin: 0px 10px;
+}
+.see-more {
+  position: fixed;
+  bottom: 0;
+  width: 230px;
 }
