@@ -41,6 +41,11 @@ body {
   justify-content: center;
   flex-wrap: wrap;
 }
+.container-align-center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 .logo {
   width: 100px;
   margin: 40px 20px 15px; 
@@ -68,10 +73,7 @@ body {
   'GRAD' -100,
   'opsz' 24
 }
-.nav-li-container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+.nav-li-padding-10 {
   padding: 10px 0px;
 }
 .nav-icon {
@@ -110,16 +112,35 @@ body {
 .background-color-blue {
   background-color: rgb(49, 154, 240);
 }
-.certificated-logo {
+.background-color-gray {
+  background-color: rgb(233, 232, 232);
+}
+.certificated-logo-size {
   font-size: 22px;
   margin-left: 5px;
 }
 .btn-follow {
-  width: 90px;
-  height: 35px;
+  width: 80px;
+  height: 33px;
   border-radius: 8px;
   border: none;
 }
 .btn-follow:hover {
   background-color: rgb(28, 116, 248);
+}
+.btn-morepeople {
+  width: 35px;
+  height: 33px;
+  border-radius: 8px;
+  border: none;
+  margin: 0px 7px;
+}
+.btn-morepeople:hover {
+  background-color: rgb(214, 214, 214);
+}
+.morepeople-logo-size {
+  font-size: 18px;
+}
+.more-logo-size {
+  font-size: 24px;
 }
