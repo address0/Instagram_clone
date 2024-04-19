@@ -41,6 +41,33 @@ body {
   justify-content: center;
   flex-wrap: wrap;
 }
+.profile-feed-container {
+  width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.profile-menu-container {
+  width: 300px;
+  height: 50px;
+  margin: 0px 300px;
+  display: flex;
+  justify-content: space-between;
+}
+.profile-menu-content-active {
+  display: flex;
+  margin: 0;
+  height: 50px;
+  border-top: 1px solid black;
+  align-items: center;
+  justify-content: center;
+}
+.profile-menu-content {
+  display: flex;
+  margin: 0;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+}
 .container-align-center {
   display: flex;
   flex-direction: row;
@@ -83,7 +110,7 @@ body {
 .see-more {
   position: fixed;
   bottom: 0;
-  width: 230px;
+  width: 220px;
 }
 .profile-photo {
   width: 150px;
@@ -103,11 +130,20 @@ body {
 .font-size-15 {
   font-size: 15px;
 }
+.font-size-12 {
+  font-size: 12px;
+}
+.font-bolder {
+  font-weight: bolder;
+}
 .color-blue {
   color: rgb(49, 154, 240);
 }
 .color-white {
   color: white;
+}
+.color-gray {
+  color: gray;
 }
 .background-color-blue {
   background-color: rgb(49, 154, 240);
@@ -145,6 +181,11 @@ body {
   font-size: 24px;
 }
 .profile-feed-size-300 {
-  width: 300px;
-  height: 300px;
+  margin: 3px;
+  width: 294px;
+  height: 294px;
+}
+.profile-menu-icon {
+  font-size: 12px;
+  margin-right: 5px;
 }
