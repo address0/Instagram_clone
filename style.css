@@ -68,6 +68,14 @@ body {
   align-items: center;
   justify-content: center;
 }
+.profile-feed-shadow {
+  position: relative;
+  width: 294px;
+  height: 294px;
+}
+.profile-feed-shadow:hover {
+  background-color: rgba(56, 56, 56, 0.396);
+}
 .container-align-center {
   display: flex;
   flex-direction: row;
@@ -182,6 +190,12 @@ body {
 }
 .profile-feed-size-300 {
   margin: 3px;
+  width: 294px;
+  height: 294px;
+}
+.profile-feed-photo-size {
+  position: absolute;
+  margin: 0;
   width: 294px;
   height: 294px;
 }
