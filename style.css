@@ -144,3 +144,7 @@ body {
 .more-logo-size {
   font-size: 24px;
 }
+.profile-feed-size-300 {
+  width: 300px;
+  height: 300px;
+}
