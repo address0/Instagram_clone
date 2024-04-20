@@ -69,12 +69,17 @@ body {
   justify-content: center;
 }
 .profile-feed-shadow {  
+  display: flex;
   position: relative;
+  color: rgba(255, 255, 255, 0);
   width: 294px;
   height: 294px;
+  justify-content: center;
+  align-items: center;
 }
 .profile-feed-shadow:hover {
   background-color: rgba(56, 56, 56, 0.396);
+  color: white;
 }
 .container-align-center {
   display: flex;
@@ -131,6 +136,9 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.font-size-22 {
+  font-size: 22px;
 }
 .font-size-20 {
   font-size: 20px;
