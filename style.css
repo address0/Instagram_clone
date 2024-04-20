@@ -68,7 +68,7 @@ body {
   align-items: center;
   justify-content: center;
 }
-.profile-feed-shadow {
+.profile-feed-shadow {  
   position: relative;
   width: 294px;
   height: 294px;
@@ -188,12 +188,13 @@ body {
 .more-logo-size {
   font-size: 24px;
 }
-.profile-feed-size-300 {
+.profile-feed-size-300 {  
+  position: relative;
   margin: 3px;
   width: 294px;
   height: 294px;
 }
-.profile-feed-photo-size {
+.profile-feed-photo {
   position: absolute;
   margin: 0;
   width: 294px;
@@ -202,4 +203,14 @@ body {
 .profile-menu-icon {
   font-size: 12px;
   margin-right: 5px;
+}
+.profile-feed-icon-container {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 15px;
+  height: 15px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
