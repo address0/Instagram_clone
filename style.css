@@ -122,7 +122,7 @@ body {
 }
 .see-more {
   position: fixed;
-  bottom: 0;
+  bottom: 15px;
   width: 220px;
 }
 .profile-photo {
