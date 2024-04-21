@@ -56,6 +56,19 @@ body {
   display: flex;
   align-items: center;
 }
+.home-feed-icons-container {
+  width: 450px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.home-feed-icons-container-left {
+  width: 100px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+}
 .home-recommend-container {
   display: flex;
   position: absolute;
@@ -203,6 +216,9 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+.font-size-30 {
+  font-size: 30px;
+}
 .font-size-22 {
   font-size: 22px;
 }
@@ -298,6 +314,9 @@ body {
 .text-margin-10 {
   margin: 10px;
 }
+.text-margin-right-15 {
+  margin-right: 15px;
+}
 .story-expand-icon-right {
   position: absolute;
   top: 40px;
@@ -320,4 +339,10 @@ body {
   height: 40px;
   border-radius: 100%;
   border: 1px solid rgb(214, 214, 214);
+}
+.home-feed-icons-color {
+  color: black;
+}
+.home-feed-icons-color:hover {
+  color: gray;
 }
