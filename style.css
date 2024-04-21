@@ -8,6 +8,23 @@ body {
   margin-right: 400px;
   display: flex;
   justify-content: center;
+} 
+.home-main-content-container {
+  width: 750px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.home-story-container {
+  width: 750px;
+  height: 130px;
+  display: flex;
+  align-items: center;
+}
+.home-feed-container {
+  width: 650px;
+  display: flex;
+  justify-content: center;
 }
 .home-recommend-container {
   display: flex;
