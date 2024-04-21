@@ -18,10 +18,10 @@ body {
 .home-stories-container {
   position: relative;
   width: 700px;
-  height: 130px;
+  height: 120px;
   display: flex;
   align-items: center;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 .home-story-container {
   width: 85px;
@@ -31,10 +31,30 @@ body {
   align-content: center;
   flex-wrap: wrap;
 }
-.home-feed-container {
-  width: 600px;
+.home-feeds-container {
+  width: 450px;
   display: flex;
   justify-content: center;
+  flex-direction: column;
+}
+.home-feed-container {
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid rgb(214, 214, 214);
+}
+.home-feed-user-container {
+  width: 450px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.home-feed-profile-container {
+  width: 300px;
+  height: 50px;
+  display: flex;
+  align-items: center;
 }
 .home-recommend-container {
   display: flex;
@@ -275,6 +295,9 @@ body {
 .text-margin-5 {
   margin: 5px;
 }
+.text-margin-10 {
+  margin: 10px;
+}
 .story-expand-icon-right {
   position: absolute;
   top: 40px;
@@ -286,4 +309,15 @@ body {
   top: 40px;
   left: 20px;
   font-size: 25px;
+}
+.home-feed-photo {
+  width: 450px;
+  border-radius: 5px;
+  border: 1px solid rgb(214, 214, 214);
+}
+.home-feed-profile-photo {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  border: 1px solid rgb(214, 214, 214);
 }
