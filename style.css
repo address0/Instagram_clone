@@ -50,14 +50,14 @@ li a {
 }
 .home-feed-user-container {
   width: 450px;
-  height: 50px;
+  height: 60px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 .home-feed-profile-container {
   width: 300px;
-  height: 50px;
+  height: 60px;
   display: flex;
   align-items: center;
 }
