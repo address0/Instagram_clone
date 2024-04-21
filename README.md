@@ -40,3 +40,8 @@ python 3.9
 ## 2. 사용 방법
 ## 3. API 명세서(BE 작성)
 ## 4. 페이지 소개(FE 작성)
+![profile_page-1](images/profile_page-1.png)
+프로필 페이지 구성: 좌측 navBar, 중앙은 프로필 피드
+
+![profile_page-2](images/profile_page-2.png)
+피드에 마우스 올릴 시 좋아요/댓글 수 출력
