@@ -16,6 +16,7 @@ body {
   flex-wrap: wrap;
 }
 .home-stories-container {
+  position: relative;
   width: 700px;
   height: 130px;
   display: flex;
@@ -273,4 +274,16 @@ body {
 }
 .text-margin-5 {
   margin: 5px;
+}
+.story-expand-icon-right {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  font-size: 25px;
+}
+.story-expand-icon-left {
+  position: absolute;
+  top: 40px;
+  left: 20px;
+  font-size: 25px;
 }
