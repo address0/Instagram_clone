@@ -1,6 +1,11 @@
 body {
   margin: 0;
 }
+li a {
+  display: block;
+  text-decoration: none;
+  color: black;
+}
 .home-main-container {
   width: 100;
   height: 100%;
