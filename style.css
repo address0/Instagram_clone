@@ -10,19 +10,28 @@ body {
   justify-content: center;
 } 
 .home-main-content-container {
-  width: 750px;
+  width: 700px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
-.home-story-container {
-  width: 750px;
+.home-stories-container {
+  width: 700px;
   height: 130px;
   display: flex;
   align-items: center;
+  margin-top: 10px;
+}
+.home-story-container {
+  width: 85px;
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
 }
 .home-feed-container {
-  width: 650px;
+  width: 600px;
   display: flex;
   justify-content: center;
 }
@@ -257,4 +266,11 @@ body {
   display: flex;
   justify-content: center;
   align-content: center;
+}
+.story-profile-size {
+  width: 60px;
+  height: 60px;
+}
+.text-margin-5 {
+  margin: 5px;
 }
