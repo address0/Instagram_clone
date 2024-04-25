@@ -84,10 +84,15 @@ li a {
   top: 40px;
   right: 50px;
   width: 350px;
-  height: 500px;
-  border: 1px solid black;
   flex-direction: column;
   justify-content: space-between;
+}
+.home-recommend-profile-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 350px;
+  height: 60px;
 }
 .profile-main-container {
   width: 100;
