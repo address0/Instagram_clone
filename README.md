@@ -45,3 +45,7 @@ python 3.9
 
 ![profile_page-2](images/profile_page-2.png)
 피드에 마우스 올릴 시 좋아요/댓글 수 출력
+
+![home_page-1](images/home-page.png)
+navBar 홈 버튼 클릭 시 홈 화면으로 이동  
+좌측 navBar, 중앙 스토리/피드 콘텐츠, 우측 사용자 계정/추천 계정 출력 란으로 구성
